@@ -9043,7 +9043,7 @@ keyboard.inline_keyboard = {
 {text = ' S𝗈𝗎𝗋𝖼𝖾 A𝗆𝖺ᴢ𝗈𝗇', url = "https://t.me/zzizzzz"}
 },
 {
-{text = '- مطور السورس .', url = "https://t.me/KKKK9"},{text = '. قناة السورس .', url = "https://t.me/oHooH "}
+{text = '- مطور السورس .', url = "https://t.me/KKKK9"},{text = '- قناة السورس .', url = "https://t.me/oHooH "}
 },
 }
 local msgg = msg_id/2097152/0.5
