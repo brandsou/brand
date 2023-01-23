@@ -10047,7 +10047,6 @@ local CmdStart = '*\n⌔︙أهلآ بك في بوت '..(Redis:get(relax.."relax
 '\n⌔︙اضف البوت الى مجموعتك'..
 '\n⌔︙ارفعه ادمن {مشرف}'..
 '\n⌔︙ارسل كلمة { تفعيل } ليتم تفعيل المجموعه'..
-'\n⌔︙مطور البوت ← {'..UserSudo..'}*'
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
@@ -10055,7 +10054,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = '. قناة السورس -', url = 't.me/zzizzzz'}, 
+{text = '- مطور السورس .', url = "https://t.me/KKKK9"},{text = '- قناة السورس .', url = "https://t.me/zzizzzz "}
 },
 }
 }
@@ -10068,7 +10067,7 @@ data = {
 {text = '➕ اضفني لمجموعتك', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = '. قناة السورس -', url = 't.me/zzizzzz'}, 
+{text = '- مطور السورس .', url = "https://t.me/KKKK9"},{text = '- قناة السورس .', url = "https://t.me/zzizzzz "}
 },
 }
 }
