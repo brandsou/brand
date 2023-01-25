@@ -7286,9 +7286,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,"⌔︙لا استطيع جلب ال�
 end
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
 {{text = Get_Chat.title, url = LinkGroup.invite_link},},}}
-return LuaTele.sendText(msg_chat_id, msg_id, "- رابط المجموعه : index and pubg امزون
-  ٴ— — — — — — — — — — 
-https://t.me/+ItjexFF-A2g5Yjcy', 'md', true, false, false, false, reply_markup)
+return LuaTele.sendText(msg_chat_id, msg_id, "⌔︙ Link Group : \n["..Get_Chat.title.. ']('..LinkGroup.invite_link..')', 'md', true, false, false, false, reply_markup)
 end
 end
 
