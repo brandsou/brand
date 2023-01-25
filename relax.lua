@@ -7271,7 +7271,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,"⌔︙تم مسح الرابط ","md
 end
 if text == "الرابط" then
 if not Redis:get(relax.."relax:Status:Link"..msg_chat_id) then
-return LuaTele.sendText(msg_chat_id,msg_id,"⌔︙تم تعطيل جلب الرابط من قبل الادمنيه","md",true)
+return LuaTele.sendText(msg_chat_id,msg_id,"","md",true)
 end 
 local Get_Chat = LuaTele.getChat(msg_chat_id)
 local GetLink = Redis:get(relax.."relax:Group:Link"..msg_chat_id) 
