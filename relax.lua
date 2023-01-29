@@ -9047,25 +9047,6 @@ keyboard.inline_keyboard = {
 },
 }
 local msgg = msg_id/2097152/0.5
-if text == 'رابط الحذف' or text == 'حذف' or text == 'رابط الحذف' or text == 'source' then
-photo = "https://t.me/sssdsr4/151"
-local T =[[
-- روابط حذف جميع برامج التواصل
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-
-{
-{text = '- Telegram', url = "https://my.telegram.org/auth?to=delete"},{text = '- Instagram', url = "https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}
-},
-{
-{text = '- Facebook', url = "https://www.facebook.com/help/deleteaccount"},{text = '- Snapchat', url = "https://accounts.snapchat.com/accounts/login?continue=https://accounts.snapchat.com/accounts/deleteaccount"}
-},
-{
-{text = ' S𝗈𝗎𝗋𝖼𝖾 A𝗆𝖺ᴢ𝗈𝗇', url = "https://t.me/zzizzzz"}
-},
-}
-local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 elseif text == 'الاوامر' then
 if not msg.Addictive then
