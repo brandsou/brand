@@ -13071,9 +13071,3 @@ end
 end
 end
 luatele.run(CallBackLua)
- 
-
-
-
-
-
