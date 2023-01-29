@@ -9046,6 +9046,7 @@ keyboard.inline_keyboard = {
 {text = '- مطور السورس .', url = "https://t.me/KKKK9"},{text = '- قناة السورس .', url = "https://t.me/oHooH "}
 },
 }
+local msgg = msg_id/2097152/0.5
 if text == 'رابط الحذف' or text == 'حذف' or text == 'رابط الحذف' or text == 'source' then
 photo = "https://t.me/sssdsr4/151"
 local T =[[
