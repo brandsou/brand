@@ -9049,7 +9049,7 @@ keyboard.inline_keyboard = {
 if text == 'رابط الحذف' or text == 'حذف' or text == 'رابط الحذف' or text == 'source' then
 photo = "https://t.me/sssdsr4/151"
 local T =[[
-*- روابط حذف جميع برامج التواصل .*
+- روابط حذف جميع برامج التواصل .
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -9061,7 +9061,7 @@ keyboard.inline_keyboard = {
 {text = '- Facebook', url = "https://www.facebook.com/help/deleteaccount"},{text = '- Snapchat', url = "https://accounts.snapchat.com/accounts/login?continue=https://accounts.snapchat.com/accounts/deleteaccount"}
 },
 {
-{text = ' - S𝗈𝗎𝗋𝖼𝖾 A𝗆𝖺ᴢ𝗈𝗇 .', url = "https://t.me/zzizzzz"}
+{text = ' S𝗈𝗎𝗋𝖼𝖾 A𝗆𝖺ᴢ𝗈𝗇', url = "https://t.me/zzizzzz"}
 },
 }
 local msgg = msg_id/2097152/0.5
@@ -13071,3 +13071,9 @@ end
 end
 end
 luatele.run(CallBackLua)
+ 
+
+
+
+
+
